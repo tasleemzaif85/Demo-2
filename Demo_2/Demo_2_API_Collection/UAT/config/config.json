@@ -18,7 +18,20 @@
   },
   "environment": "UAT",
   "rules": [],
-  "test_plans": [],
+  "test_plans": [
+    {
+      "id": 21,
+      "name": "Demo 2 API Load Test",
+      "engine": "jmeter",
+      "test_type": "load",
+      "vusers": 1,
+      "rampup": 1,
+      "iter_mode": "loops",
+      "loops": 1,
+      "duration": 60,
+      "status": "pending"
+    }
+  ],
   "config": {
     "urls": [
       {
